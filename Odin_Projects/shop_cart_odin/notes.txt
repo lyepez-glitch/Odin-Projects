@@ -1,0 +1,22 @@
+home page check
+shop page for shopping cart check
+shopping cart on shop page check
+use nav bar to go between the pages the navbar on both pages check
+
+add few imgs or info to homepage check
+on shop page the same nav bar showss num of item in cart check
+have button next to nav to go to cart to checkout and pay(but don't implement this logic)  check
+
+
+build card elements for each product check
+in card have input field to enter in how many items want to buy check
+add increment and decrememnt button next to input field check
+show title for each product and Add to cart button check
+fetch shop products from  FakeStore API check
+when press submit the amount on cart is repriced check
+use react test library to test app
+stye app
+deploy
+netlify: add _redirects file to public/ dir of project
+use this /* /index.html 200
+to redirect all routes to index and let react-router-dom handle the rest

@@ -1,0 +1,250 @@
+:root {
+    --light-blue: #7dd3fc;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: blue;
+    grid-row: 1/span 4;
+    color: white;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    display: grid;
+    row-gap: 20px;
+    ;
+}
+
+.sidebar ul.nav-1 {
+    margin-top: 50px;
+}
+
+.sidebar ul.nav-2 {
+    margin-top: 100px;
+}
+
+.header {
+    grid-column: 2/-1;
+    background-color: white;
+    grid-template-rows: 1fr auto;
+    height: 130px;
+}
+
+.main-content {
+    grid-column: 2/-1;
+    grid-row: 2/span 3;
+    background-color: lightblue;
+}
+
+svg {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    gap: 10px;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#search-container input {
+    border-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.5);
+}
+
+.head-right {
+    margin-left: 600px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+span #name {
+    margin-bottom: 20px;
+}
+
+.head-row-2 {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 5% 5% 50% 40%;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.head-row-2 p {
+    grid-row: 1;
+    grid-column: 2;
+    width: 100px;
+}
+
+.head-row-2 h1 {
+    grid-row: 2;
+    grid-column: 2;
+    margin: 0;
+}
+
+.head-row-2 svg {
+    grid-column: 1;
+    grid-row: 1/span 3;
+}
+
+.head-row-2 .head-col3-btns {
+    grid-column-start: 4;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.main-content {
+    display: grid;
+    /*grid-template-columns: 50% 50%;*/
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.main-content-container {
+    grid-column: 2;
+    display: grid;
+}
+
+.main-content-container h1 {
+    margin-top: 100px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border-left: 10px solid gold;
+}
+
+.project,
+.lorem {
+    grid-row: 1/span 2;
+    grid-column: 1/span 2;
+}
+
+.card-btns {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.project {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.lorem {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.right-side-bar {
+    grid-row: 2;
+    grid-column: 3;
+    margin-top: 158px;
+    margin-left: 30px;
+    display: grid;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+    grid-template-columns: 1fr;
+}
+
+.announcements h1 {
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+.announce-card-1 {
+    border-bottom: 2px solid black;
+    grid-row: 2/ span 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.announce-card-2 {
+    border-bottom: 2px solid black;
+    grid-row: 3/ span 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.announce-card-3 {
+    border-bottom: 2px solid black;
+    grid-row: 4/ span 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 10% 20% 20% 20% 20% 10%;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+}
+
+.trending h1 {
+    margin-left: 170px;
+    margin-top: -50px;
+}
+
+.trending-card-1 {
+    border-bottom: 2px solid black;
+    grid-row: 2/ span 1;
+}
+
+.trending-card-2 {
+    border-bottom: 2px solid black;
+    grid-row: 3/ span 1;
+}
+
+.trending-card-3 {
+    border-bottom: 2px solid black;
+    grid-row: 4/ span 1;
+}
+
+.trending-card-4 {
+    border-bottom: 2px solid black;
+    grid-row: 5/ span 1;
+}
+
+.announcements h3 {
+    margin-top: 50px;
+    /* margin-bottom: -70px; */
+}
+
+.trending-div,
+.trending-h3 {
+    margin-left: 200px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light-blue);
+}

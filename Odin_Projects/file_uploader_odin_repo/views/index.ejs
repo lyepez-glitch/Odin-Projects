@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File Uploader</title>
+</head>
+<body>
+
+  <% folders.forEach(function(folder) { %>
+    <div> Title: <%= folder.name %> </div>
+    <a href="/updateFolder/<%= folder.id %>">Edit folder</a>
+    <a href="/deleteFolder/<%= folder.id %>">Delete folder</a>
+    <% if (folder.files) { %>
+      <% folder.files.forEach(function(file) { %>
+       <div><%= file.filename %></div>
+        <a href="/details?file=<%= file %>">Open</a>
+    <% }); %>
+  <% } %>
+
+  <% }); %>
+
+  <a href="/createFolder?id=<%= user.id %>">Create a new folder</a>
+
+  <a href="/log-out">LOG OUT</a>
+
+</body>
+</html>

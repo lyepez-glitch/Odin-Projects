@@ -1,0 +1,31 @@
+<!-- uploadForm.ejs -->
+<html>
+  <head>
+    <title>Create Folder</title>
+
+     <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <form action="/createFolder?id=<%= id %>" method="post" class="form-example">
+    <div class="form-example">
+      <label for="folder">Create Folder: </label>
+      <input type="text" name="folder" id="folder"/>
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Create" />
+    </div>
+
+
+
+
+
+
+    <div class="form-example">
+      <input type="submit" value="Upload" />
+    </div>
+</form
+
+  </body>
+</html>

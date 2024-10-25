@@ -1,0 +1,21 @@
+sidebar, header and main-content containers. check
+use grid till basic layout built check
+
+each section-nest child elements in parents(grids in grids)
+
+in sidebar use grids fornav and branding section
+
+in header use grids for search bar, user info and buttons
+
+in main-content use grids for projects, announcements, and trending items
+
+add dummy content and images so you can position all grid items
+
+make the dashboard in the pic
+color palettes from Tailwind
+download icons + from Material Design icons
+Choose fonts like Roboto(part of google fonts)
+add colors or borders to containers so you can see them better
+expand/shrink project cards section when resizing window
+push to github
+use github pages

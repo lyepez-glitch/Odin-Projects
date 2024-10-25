@@ -1,0 +1,17 @@
+{
+    "name": "linked-list-odin",
+    "version": "1.0.0",
+
+    "description": "",
+    "main": "app.mjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node --experimental-modules app.mjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "http-server": "^14.1.1"
+    }
+}

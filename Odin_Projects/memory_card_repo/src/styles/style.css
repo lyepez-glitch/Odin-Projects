@@ -1,0 +1,119 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1700px;
+    gap: 87px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+
+/* #title {
+    /*make it go to top left*/
+
+
+/* } */
+
+
+/* #score {
+    /*make it go to top right*/
+
+
+/* } */
+
+
+/* } */
+
+.card {
+    background-color: lightgreen;
+    color: white;
+    max-width: 300px;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+}
+
+.card img {
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+#title {}
+
+#title {
+    color: gold;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+#score,
+#bestScore {
+    color: gold;
+}
+
+#root>p {
+    color: gold;
+}
+
+#title {
+    margin-left: -1400px;
+}
+
+
+/* img {
+    background-color: white;
+} */
+
+#root>#title {
+    margin-left: -700px;
+}
+
+#root>p {
+    margin-left: -740px;
+}
+
+#root {
+    position: relative;
+}
+
+#score,
+#bestScore {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 1600px;
+    position: absolute;
+}
+
+#bestScore {
+    margin-top: -100px;
+    width: 100px;
+}
+
+#root {
+    margin: 0;
+}
+
+.card p {
+    font-family: "Playwrite ES Deco", cursive;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: bold;
+    margin-top: -10px;
+}
+
+.card div,
+.card p {
+    color: black;
+}
+
+.card {
+    border-radius: 15px;
+}

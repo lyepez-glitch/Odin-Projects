@@ -1,0 +1,30 @@
+<!-- form.ejs -->
+<html>
+  <head>
+    <title>New Message</title>
+     <link href="/tailwind.css" rel="stylesheet">
+     <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+   <% if (edit) { %>
+   <h1>Edit Category</h1>
+      <form class = "bg-cyan-300 outline-inherit border-8 border-black"method="POST" action="/categories/edit/<%=id%>">
+        <label for="category">Name:</label><br>
+          <input value = "<%=category.name%>" type="text" id="category" name="category"><br>
+          <input type="submit" value="Submit">
+      </form>
+  <% } %>
+<% if (!edit) { %>
+<h1>Create a New Category</h1>
+  <form method="POST" class = "bg-cyan-300 outline-inherit border-8 border-black" action="/categories/new">
+    <label for="newCat">Name:</label><br>
+      <input type="text" id="newCat" name="newCat"><br>
+
+      <input type="submit" value="Submit">
+  </form>
+<% } %>
+
+
+  </body>
+</html>

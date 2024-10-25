@@ -1,0 +1,21 @@
+#to_do_list {
+    background-color: yellow;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.todocont {
+    background-color: green;
+    color: white;
+    width: 40%;
+}
+
+.addBtn {
+    margin-top: 40px;
+}
+
+.High {
+    background-color: red;
+}

@@ -1,0 +1,133 @@
+#headerContainer,
+#copyRight {
+    background-color: #1F2937;
+    color: white;
+}
+
+#mainText {
+    font-family: 'Roboto', sans-serif;
+    font: 48px 700 #F9FAF8;
+}
+
+#secondaryText,
+#linkText {
+    font: 18px #E5E7EB;
+}
+
+#logoText {
+    font: 24px #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+#callToAction {
+    background-color: #3882F6;
+}
+
+.informationHeaderText {
+    font-family: 'Roboto', sans-serif;
+    font: 36px 700 #1F2937;
+    width: 200px;
+}
+
+blockquote {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E7EB;
+    font: 36px 300 italic #1F2937;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+#headerCont {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex: 2;
+}
+
+#imgCont {
+    display: flex;
+    justify-content: center;
+    flex: 3;
+}
+
+#random-info {
+    text-align: center;
+}
+
+#quote {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footerCallToAction {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#callToAction {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#callactiontext {
+    padding: 30px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+#copyRight {
+    margin-left: 680px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+}
+
+#footerCallToAction {
+    background-color: #3882F6;
+}
+
+.signUp {
+    height: 50px;
+    align-self: center;
+    width: 100px;
+    border-color: white;
+}
+
+blockquote>p {
+    width: 400px;
+}
+
+cite {
+    font-weight: bold;
+}
+
+#mainImg {
+    height: 300px;
+    width: 300px;
+}

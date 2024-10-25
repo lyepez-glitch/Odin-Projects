@@ -1,0 +1,90 @@
+#background-container {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+}
+
+#leaves-img {
+    background-image: url("./background_leaves.jpg");
+    flex: 1;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+
+}
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(./Norse-Bold.otf);
+}
+span#odin {
+    font-family: "Norse-Bold", sans-serif;
+    color: white;
+    margin-left: 20px;
+    font-size: 75px;
+}
+#createAccount {
+    background-color: #596D48;
+}
+.black {
+    background-color: black;
+    flex: 1;
+}
+form {
+    background-color: white;
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+.logo {
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    top: 10%;
+    max-width: 100%;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 50%;
+    height: 50%;
+}
+input#firstname {
+    display: block;
+}
+input#lastname {
+    display: block;
+}
+button {
+    flex-basis: 100%;
+}
+
+/* input:indeterminate {
+    background-color: #E5E7EB;
+} */
+
+/* #passord-input.error {
+    border: red;
+}
+input:focus {
+    border: blue;
+    box-shadow: subtle
+} */
+
+/*
+h1 {
+    font-family: "Norse-Bold", sans-serif;
+} */

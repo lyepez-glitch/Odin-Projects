@@ -1,0 +1,11 @@
+#gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+}
+
+.rowContainer {
+    display: flex;
+    gap: 8px;
+    flex-basis: 100%;
+}
